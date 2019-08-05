@@ -105,18 +105,27 @@ body {font-family: "Lato", sans-serif}
         <i class="fa fa-envelope" style="width:30px"> </i>Correo: mail@mail.com<br>
       </div>
       <div class="w3-col m6">
-        <form action="/action_page.php" target="_blank">
-          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Nombre" required name="Name">
-            </div>
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Correo" required name="Email">
-            </div>
-          </div>
-          <input class="w3-input w3-border" type="text" placeholder="Su mensaje" required name="Message">
-          <button class="w3-button w3-sand w3-section w3-right" type="submit">ENVIAR</button>
-        </form>
+<form action="https://formspree.io/manualidadesram@hotmail.com" method="POST" class="w3-container">
+  <p>
+  <label>Tu nombre</label>
+  <input class="w3-input" type="text" name="nombre" required></p>
+  <p>
+  <label>Teléfono</label>
+  <input class="w3-input" type="number" name="teléfono" required></p>
+  <p>
+  <label>Escoge tu paquete</label>
+  <select class="w3-select" name="option" required>
+    <option value="" disabled selected></option>
+    <option value="tematico">Paquete temático</option>
+    <option value="empresarial">Paquete empresarial</option>
+    <option value="familiar">Paquete familiar</option>
+    <option value="especifico">Específico</option>    
+  </select></p>
+  <p>
+  <label>Tu mensaje</label>
+  <input class="w3-input" type="text" name="mensaje" required></p>
+  <p><input class="w3-button w3-sand" type="submit" value="Enviar"></p>
+</form>
       </div>
     </div>
   </div>
