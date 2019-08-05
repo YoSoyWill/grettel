@@ -103,22 +103,22 @@ body {font-family: "Lato", sans-serif}
 <form action="https://formspree.io/manualidadesram@hotmail.com" method="POST" class="w3-container">
   <p>
   <label>Tu nombre</label>
-  <input class="w3-input" type="text" name="nombre"></p>
+  <input class="w3-input" type="text" name="nombre" required></p>
   <p>
   <label>Teléfono</label>
-  <input class="w3-input" type="number" name="teléfono"></p>
+  <input class="w3-input" type="number" name="teléfono" required></p>
   <p>
   <label>Escoge tu paquete</label>
-  <select class="w3-select" name="option">
+  <select class="w3-select" name="option" required>
     <option value="" disabled selected></option>
-    <option value="1">Paquete temático</option>
-    <option value="2">Paquete empresarial</option>
-    <option value="3">Paquete familiar</option>
-    <option value="3">Específico</option>    
+    <option value="tematico">Paquete temático</option>
+    <option value="empresarial">Paquete empresarial</option>
+    <option value="familiar">Paquete familiar</option>
+    <option value="especifico">Específico</option>    
   </select></p>
   <p>
   <label>Tu mensaje</label>
-  <input class="w3-input" type="text" name="mensaje"></p>
+  <input class="w3-input" type="text" name="mensaje" required></p>
   <p><input class="w3-button w3-sand" type="submit" value="Enviar"></p>
 </form>
       </div>
