@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<title>Grettel</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-light-grey w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">INICIO</a>
+    <a href="/index.html#nosotros" class="w3-bar-item w3-button w3-padding-large w3-hide-small">NOSOTROS</a>
+    <a href="/index.html#paq" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PAQUETES</a>
+    <a href="#contacto" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACTO</a>
+         </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-light-grey w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="/index.html#nosotros" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">NOSOTROS</a>
+  <a href="/index.html#paq" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PAQUETES</a>
+  <a href="#contacto" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACTO</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px">
+    <h2 class="w3-wide">PAQUETE TEMÁTICO</h2>
+<div class="w3-cell">
+  <div class="w3-container w3-cell w3-mobile" style="width:50%">
+    <div class="w3-content w3-display-container" style="max-width:800px">
+  <img class="mySlides" src="https://www.puertoespanaeventos.com.ar/wp-content/uploads/2018/02/Puerto_Espa%C3%B1a_16416-5066-1024x500.jpg" style="width:100%">
+  <img class="mySlides" src="https://static.wixstatic.com/media/61aa6e_b6ebd62c9cd64697a34c8d8ba03f16a6~mv2.jpg/v1/fill/w_1024,h_500,fp_0.49_0.56,q_85,usm_0.66_1.00_0.01/61aa6e_b6ebd62c9cd64697a34c8d8ba03f16a6~mv2.webp" style="width:100%">
+  <img class="mySlides" src="http://www.gamecored.com/wp-content/uploads/2018/10/for-honor-halloween-810x400.jpg" style="width:100%">
+  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+  </div>
+</div>
+  </div>
+  <div class="w3-container w3-justify w3-cell w3-mobile">
+  <p>El paquete temático está pensado para blabla bla bla bla bla blabla bla bla bla blablabla bla bla bla blablabla bla bla bla blablabla bla bla bla bla.</p>
+  <p><b>este paquete incluye:</b></p>
+      <ul class="w3-ul" style="width:100%">
+    <li>Esto</li>
+    <li>Esto también</li>
+    <li>y esto</li>
+  </ul>
+  <p>los precios inician a partir de ¢100.000,00</p>
+  </div>
+
+</div>
+  </div>
+ 
+  </div>
+  <div class="w3-sand">
+    <div class="w3-container w3-content w3-padding-16" style="max-width:1000px">
+      <h2 class="w3-wide w3-center">RESEÑAS</h2>
+      <p class="w3-opacity w3-center"><i>Lo que nuestros clientes opinan</i></p><br>
+
+      <div class="w3-row-padding " style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+  <blockquote class="w3-panel w3-leftbar w3-white">
+    <p class="w3-large"><i>"Esta es mi humilde opinión"</i></p>
+    <p>Mi nombre</p>
+  </blockquote> 
+        </div>
+        <div class="w3-third w3-margin-bottom">
+            <blockquote class="w3-panel w3-leftbar w3-white">
+    <p class="w3-large"><i>"Esta es mi humilde opinión"</i></p>
+    <p>Mi nombre</p>
+  </blockquote> 
+        </div>
+        <div class="w3-third w3-margin-bottom">
+            <blockquote class="w3-panel w3-leftbar w3-white">
+    <p class="w3-large"><i>"Esta es mi humilde opinión"</i></p>
+    <p>Mi nombre</p>
+  </blockquote> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contacto">
+    <h2 class="w3-wide w3-center">CONTACTO</h2>
+    <p class="w3-opacity w3-center"><i>Contáctanos sin compromiso</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i>San José, Costa Rica<br>
+        <i class="fa fa-phone" style="width:30px"></i>Teléfono: 8888-8888<br>
+        <i class="fa fa-whatsapp" style="width:30px"> </i>WhatsApp: 8888-2020<br>
+        <i class="fa fa-envelope" style="width:30px"> </i>Correo: mail@mail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Nombre" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Correo" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Su mensaje" required name="Message">
+          <button class="w3-button w3-sand w3-section w3-right" type="submit">ENVIAR</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+
+
+</footer>
+
+<script>
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+//slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+</body>
+</html>
